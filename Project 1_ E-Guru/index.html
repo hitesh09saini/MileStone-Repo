@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="out.css">
+    <style>
+        .j{
+            display: none;
+        }
+        @media screen and (max-width:1200px) {
+            .i {
+                display: none;
+            }
+            .j{
+               display: block;
+            }
+        }
+
+        @media screen and (max-width:930px) {
+            .k{
+               flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex mb-4 bg-[linear-gradient(90deg,_#FAFBF9_60%,_#fff_60%)]  justify-center">
+
+        <div class="w-11/12 flex flex-col items-center">
+            <!-- navbar -->
+
+            <nav class="flex justify-between pl-6 pr-6  p-4 w-11/12 mb-6">
+                <img class="lg:hidden" src="assets/menu-icon.png" alt="">
+                <div class="flex ">
+                    <img class="w-12" src="assets/logo.png" alt="">
+                    <h1 class="ml-4 text-2xl flex items-center font-bold">E GURU</h1>
+                </div>
+
+                <div class="flex gap-10 font-bold text-gray-400 max-lg:hidden">
+                    <span class="text-orange-600">Home</span>
+                    <span>About Us</span>
+                    <span>Features</span>
+                    <span>How it works</span>
+                </div>
+
+                <div class="border-2 p-1 pl-4 pr-4  border-zinc-600 rounded max-md:hidden">
+                    Sign Up
+                </div>
+                <img class="md:hidden w-9" src="assets/user-profile.png" alt="">
+            </nav>
+
+            <!-- hero section -->
+            <div class="flex flex-wrap relative justify-center ">
+                <!-- containt -->
+                <div class="md:w-[673px] pt-12 flex flex-col max-md:mb-[100px]  relative justify-center gap-10">
+                    <div class="justify-end i flex w-full "><img class="w-5  " src="assets/orange-arrow.png" alt="">
+                    </div>
+                    <h1 class="text-6xl font-bold m-4 ml-0">STUDY FROM <br> HOME WITH EXPERT</h1>
+
+                    <div
+                        class=" w-7/12 border-gray-400 text-xl  pl-2 text-gray-600 border-l-2 border border-r-0 border-t-0 border-b-0 ">
+                        A learning system based on formalised teaching with the help of resources.
+                    </div>
+                    <div class="i flex">
+                        <div class="mb-4">
+                            <span style="background-color: rgb(255, 68, 0);" class="bg-[] text-[#fff] p-1 pl-3 pr-3">Get
+                                Started</span>
+                            <span class="border border-black p-1 pl-3 pr-3 ">Learn More</span>
+                        </div>
+                        <img class="w-28 ml-12 i " src="assets/curve-arrow.png" alt="">
+                    </div>
+
+                </div>
+
+                <!-- image -->
+                 <div>
+                    <div class="relative w-[400px] h-[500px] p-4  flex justify-center items-center ">
+                        <img class="ml-8 " src="assets/main-image-bg.png" alt="">
+                        <img class="absolute w-[60%]" src="assets/main-image.png" alt="">
+                        <img class="absolute top-6 right-[-30px]" src="assets/main-image-pattern.png" alt="">
+                        <img class="w-5 absolute top-10 left-5 j  " src="assets/orange-arrow.png" alt="">
+                        <img class="absolute bottom-0 left-0" src="assets/green-arrow.png" alt="">
+                        <img class="absolute bottom-10 right-0" src="assets/circle.png" alt="">
+
+
+                    </div>
+
+                    <div class="w-full j">
+                        <div class="mb-4 flex p-8 pb-4 gap-10  w-full">
+                            <div style="background-color: rgb(255, 68, 0);" class="bg-[] p-2 w-5/12 text-[#fff] pl-3 pr-3">Get
+                                Started</div>
+                            <div class="border w-5/12 border-black p-2 pl-3 pr-3 ">Learn More</div>
+                        </div>
+                        <div class="flex justify-end">
+                        <img class="w-20 " src="assets/curve-arrow.png" alt="">
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+        <!-- footer section -->
+
+        <footer class="flex max-md:flex-col bg-[#100D20] text-[#fff] pt-14 pb-14 items-center md:justify-around">
+
+            <div class="w-[250px] m-12  ml-0 mr-0">
+                <h1 class="text-4xl pb-4 ">WHY WE ARE THE BEST</h1>
+                 <p>a learning system based on formalised teaching with help of...</p>
+            </div>
+            <div class="w-[200px]  m-12 ml-0 mr-0">
+                <div class="m-4 ml-0 bg-green-400 rounded p-2 inline-block"><img src=" assets/vector3.png" alt=""></div>
+
+                <h1 class="text-[15px] font-bold">EXPERT TEACHER</h1>
+                <p>a learning system based on formalised teaching</p>
+            </div>
+
+            <div class="w-[200px]  m-12 ml-0 mr-0">
+
+                <div class="m-4 ml-0 bg-orange-500 p-2 rounded inline-block"><img src="/assets/vector2.png" alt=""></div>
+                <h1 class="text-[15px] font-bold">EXPERT TEACHER</h1>
+                <p>a learning system based on formalised teaching</p>
+        
+            </div>
+
+            <div class="w-[200px]  m-12 ml-0 mr-0 ">
+                 <div class="m-4 ml-0 bg-blue-400 p-2 rounded inline-block"> <img src="/assets/vector1.png" alt=""></div>
+                 <h1 class="text-[15px] font-bold">EXPERT TEACHER</h1>
+                 <p>a learning system based on formalised teaching</p>
+            </div>
+            
+           
+
+        </footer>
+
+</body>
+
+</html>
